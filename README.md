@@ -9,7 +9,7 @@ SELECT * FROM club_member_info_cleaned LIMIT 10;
 
 Result:
 
-```sql
+
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
 |---------|---|--------------|-----|-----|------------|---------|---------------|
 |addie lush|40|married|alush0@shutterfly.com|254-389-8708|3226 Eastlawn Pass,Temple,Texas|Assistant Professor|7/31/2013|
@@ -23,4 +23,4 @@ Result:
 |mendie alexandrescu|46|single|malexandrescu8@state.gov|504-918-4753|34 Delladonna Terrace,New Orleans,Louisiana|Systems Administrator III|3/12/1921|
 | fey kloss|52|married|fkloss9@godaddy.com|808-177-0318|8976 Jackson Park,Honolulu,Hawaii|Chemical Engineer|11/5/2014|
 <img width="121" height="409" alt="image" src="https://github.com/user-attachments/assets/d264e2af-def4-41d6-be2a-9551e8997bd5" />
-```
+
