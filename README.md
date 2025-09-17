@@ -60,3 +60,12 @@ WHERE "martial_status" ='';
 DELETE FROM club_member_info_cleaned 
 WHERE "job_title" = '' ;
 ```
+```sql
+DELETE FROM club_member_info_cleaned 
+WHERE "age" = '' ;
+```
+
+#### Step 3: Remove age out of realistic range
+```sql
+DELETE FROM club_member_info_cleaned WHERE "age" >90;
+```
