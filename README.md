@@ -51,5 +51,10 @@ SET full_name = LTRIM(full_name);
 UPDATE club_member_info_cleaned
 SET full_name = UPPER(full_name);
 ```
+#### Step 2: Remove blank data
+```sql
+DELETE FROM club_member_info_cleaned 
+WHERE 'martial_status' ='';
+```
 
 
