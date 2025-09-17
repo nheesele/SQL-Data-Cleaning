@@ -43,13 +43,13 @@ Result:
 | fey kloss|52|married|fkloss9@godaddy.com|808-177-0318|8976 Jackson Park,Honolulu,Hawaii|Chemical Engineer|11/5/2014|
 
 ### Clean data
-#### Step 1: Remove space
+#### Step 1: Remove space & format inconsistent letter case
 ```sql
 UPDATE club_member_info_cleaned
 SET full_name = LTRIM(full_name);
 
 UPDATE club_member_info_cleaned
-SET full_name = RTRIM(full_name);
+SET full_name = UPPER(full_name);
 ```
 
 
