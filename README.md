@@ -5,7 +5,9 @@ This is an educational project on data cleaning and preparation using SQL. The o
 
 ### Inspect the initial data
 
+```sql
 SELECT * FROM club_member_info_cleaned LIMIT 10;
+```
 
 Result:
 
